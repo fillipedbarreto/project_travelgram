@@ -1,0 +1,14 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding-block: 24px;
+    gap: 24px;
+    
+    font: 14px/150% var(--font-family);;
+    color: var(--text-color-secondary);
+    align-items: center;
+}
+
+footer span:nth-child(1){
+    margin-right: auto;
+}

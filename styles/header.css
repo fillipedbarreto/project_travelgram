@@ -31,7 +31,6 @@ header .container {
 
 #profile p {
     color: var(--text-color-secondary);
-    font: var(--paragraph-md);
 }
 
 #info {
