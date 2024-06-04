@@ -6,8 +6,8 @@
 
 :root {
     --brand-color: #EF5F4C;
-    --background-color: #FFFFFF
-    --surface-color: #F5F5F5;
+    --background-color: #FFFFFF;
+    --surface-color: #F6F6F6F6;
     --skeleton-color: #D9D9D9;
     --shape-transparency: #ffffff8f;
 
@@ -15,13 +15,33 @@
     --text-color-secondary: #6C6C6C;
     --font-family: "Poppins", sans-serif;
     --heading1: bold 32px/125% var(--font-family);
-    --nav-text: 16/150% var(--font-family);
-    --paragraph-md: 14/170% var(--font-family);
-    --paragraph-sm: 12/170% var(--font-family);
+    --nav-text: 16px/150% var(--font-family);
+    --paragraph-md: 14px/170% var(--font-family);
+    --paragraph-sm: 12px/170% var(--font-family);
 }
 
 body {
-    font: var(--heading1);
+    font: var(--nav-text);
     color: var(var(--text-color-primary));
     background-color: var(--background-color);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: var(--brand-color);
+    text-decoration: underline;
+}
+
+.container {
+    padding-inline: 32px;
+    max-width: 1280px;
+    margin-inline: auto;
+}
+
+.bg-surface-color {
+    background-color: var(--surface-color);
 }
