@@ -1,0 +1,30 @@
+@import url(/styles/global.css);
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 32px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+#logo {
+    height: 32px;
+    width: 162px;
+}
+
+.profilePic {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
